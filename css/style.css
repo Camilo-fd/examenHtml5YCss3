@@ -2,40 +2,74 @@
 
 header{
     width: 100%;
+    overflow-x: scroll;
 }
 
 nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 1rem;
 }
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-negro);
+}
+
+.producto_1:hover{
+    background: var(--color-fondo);
+    color: white;
+}
+
+.producto_1 a:hover{
+    color: var(--color-negro);
+}
+
+.producto_1{
+    padding: .2rem;
+    border: 2px solid var(--color-negro);
+}
+
+/* **********************FIN NAVEGADOR**************************** */
 
 main{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1.2rem;
+    padding: 1rem;
 }
 
 .caja1{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    border: 1px solid orange;
+    background: var(--color-fondo);
 }
 
 .contenido1{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+    padding: 2rem;
 }
 
 .cont1_sub1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    gap: 1rem;
+}
+
+.cont1_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont1_sub1 img{
+    height: 100%;
     object-fit: contain;
 }
 
@@ -45,9 +79,14 @@ main{
     align-items: center;
     width: 40%;
     justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+
 }
 
 .cont1_sub2 img{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -57,25 +96,40 @@ main{
     width: 40%;
 }
 
-.cont1_sub3 h4, p{
+.cont1_sub3 h4{
     font-size: 2rem;
+}
+
+.cont1_sub3 p{
+    font-size: 1.8rem;
 }
 
 .imagenes_cont1_sub3{
     display: flex;
+    width: 60%;
     flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
 }
 
-.imagenes_cont1_sub3 img{
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
+.imagenes_cont1_sub3 i:hover{
+    scale: 1.5;
 }
 
 .cont1_button{
     width: 20%;
     padding: .5rem;
     cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont1_button:hover{
+    background: var(--color-negro);
+}
+
+.cont1_button a:hover{
+    color: white;
 }
 
 .cont1_button a{
@@ -91,7 +145,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    border: 1px solid orange;
+    background: var(--color-fondo);
 }
 
 .contenido2{
@@ -161,7 +215,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    border: 1px solid orange;
+    background: var(--color-fondo);
 }
 
 .contenido3{
@@ -231,7 +285,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    border: 1px solid orange;
+    background: var(--color-fondo);
 }
 
 .contenido4{
