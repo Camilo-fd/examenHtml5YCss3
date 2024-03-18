@@ -1,0 +1,524 @@
+@import url(../css/style.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+header{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-negro);
+}
+
+.producto_1:hover{
+    background: var(--color-fondo);
+    color: white;
+}
+
+.producto_1 a:hover{
+    color: var(--color-negro);
+}
+
+.producto_1{
+    padding: .2rem;
+    border: 2px solid var(--color-negro);
+}
+
+/* **********************FIN NAVEGADOR**************************** */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.2rem;
+    padding: 1rem;
+}
+
+.caja1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background: var(--color-fondo);
+}
+
+.contenido1{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.cont1_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+}
+
+.cont1_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont1_sub1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.cont1_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+
+}
+
+.cont1_sub2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cont1_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont1_sub3 h4{
+    font-size: 2rem;
+}
+
+.cont1_sub3 p{
+    font-size: 1.8rem;
+}
+
+.imagenes_cont1_sub3{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
+}
+
+.imagenes_cont1_sub3 i:hover{
+    scale: 1.5;
+}
+
+.cont1_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont1_button:hover{
+    background: var(--color-negro);
+}
+
+.cont1_button a:hover{
+    color: white;
+}
+
+.cont1_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+/* *************************************FIN CAJA1**************************************** */
+
+.caja2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background: var(--color-fondo);
+}
+
+.contenido2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.cont2_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+}
+
+.cont2_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont2_sub1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.cont2_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont2_sub2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cont2_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont2_sub3 h4{
+    font-size: 3rem;
+}
+
+.cont2_sub3 p{
+    font-size: 1.8rem;
+}
+
+.imagenes_cont2_sub3{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
+}
+
+.imagenes_cont2_sub3 i:hover{
+    scale: 1.5;
+}
+
+.cont2_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont2_button:hover{
+    background: var(--color-negro);
+}
+
+.cont2_button a:hover{
+    color: white;
+}
+
+.cont2_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* *************************************FIN CAJA2**************************************** */
+
+.caja3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background: var(--color-fondo);
+}
+
+.contenido3{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.cont3_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+}
+
+.cont3_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont3_sub1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.cont3_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont3_sub2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cont3_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont3_sub3 h4{
+    font-size: 3rem;
+}
+
+.cont3_sub3 p{
+    font-size: 1.8rem;
+}
+
+.imagenes_cont3_sub3{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
+}
+
+.imagenes_cont3_sub3 i:hover{
+    scale: 1.5;
+}
+
+.cont3_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont3_button:hover{
+    background: var(--color-negro);
+}
+
+.cont3_button a:hover{
+    color: white;
+}
+
+.cont3_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* *************************************FIN CAJA2**************************************** */
+
+.caja4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background: var(--color-fondo);
+}
+
+.contenido4{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.cont4_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+}
+
+.cont1_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont4_sub1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.cont4_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
+}
+
+.cont4_sub2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cont4_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont4_sub3 h4{
+    font-size: 2rem;
+}
+
+.cont4_sub3 p{
+    font-size: 1.8rem;
+}
+
+.imagenes_cont4_sub3{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
+}
+
+.imagenes_cont4_sub3 i:hover{
+    scale: 1.5;
+}
+
+.cont4_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont4_button:hover{
+    background: var(--color-negro);
+}
+
+.cont4_button a:hover{
+    color: white;
+}
+
+.cont4_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+
+.escondida{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: white;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20rem;
+    top: 1rem;
+    border-radius: 1rem;
+}
+
+.button{
+    border: none;
+    width: 8%;
+    border-radius: 1rem;
+    background: var(--color-fondo);
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.imagen{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    left: 3rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+}
+
+.texto{
+    display: flex;
+    padding: 1.8rem;
+    gap: 1.7rem;
+    flex-direction: column;
+    text-wrap: balance;
+}
+
+.botones{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.botones a{
+    text-decoration: none;
+    color: var(--color-negro);
+}
+
+.button1{
+    border: none;
+    width: 60%;
+    border: 1px solid var(--color-negro);
+    padding: .5rem;
+}
+
+.button2{
+    border: none;
+    width: 40%;
+}
