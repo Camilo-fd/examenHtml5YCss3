@@ -1,0 +1,296 @@
+@import url(variables.css);
+
+header{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.2rem;
+}
+
+.caja1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    border: 1px solid orange;
+}
+
+.contenido1{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cont1_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.cont1_sub1 img{
+    object-fit: contain;
+}
+
+.cont1_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.cont1_sub2 img{
+    object-fit: contain;
+}
+
+.cont1_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont1_sub3 h4, p{
+    font-size: 2rem;
+}
+
+.imagenes_cont1_sub3{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenes_cont1_sub3 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.cont1_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.cont1_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+/* *************************************FIN CAJA1**************************************** */
+
+.caja2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    border: 1px solid orange;
+}
+
+.contenido2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cont2_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.cont2_sub1 img{
+    object-fit: contain;
+}
+
+.cont2_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.cont2_sub2 img{
+    object-fit: contain;
+}
+
+.cont2_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont2_sub3 h4, p{
+    font-size: 2rem;
+}
+
+.imagenes_cont2_sub3{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenes_cont2_sub3 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.cont2_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.cont2_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* *************************************FIN CAJA2**************************************** */
+
+.caja3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    border: 1px solid orange;
+}
+
+.contenido3{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cont3_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.cont3_sub1 img{
+    object-fit: contain;
+}
+
+.cont3_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.cont3_sub2 img{
+    object-fit: contain;
+}
+
+.cont3_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont3_sub3 h4, p{
+    font-size: 2rem;
+}
+
+.imagenes_cont3_sub3{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenes_cont3_sub3 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.cont3_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.cont3_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* *************************************FIN CAJA2**************************************** */
+
+.caja4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    border: 1px solid orange;
+}
+
+.contenido4{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cont4_sub1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.cont4_sub1 img{
+    object-fit: contain;
+}
+
+.cont4_sub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.cont4_sub2 img{
+    object-fit: contain;
+}
+
+.cont4_sub3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cont4_sub3 h4, p{
+    font-size: 2rem;
+}
+
+.imagenes_cont4_sub3{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenes_cont4_sub3 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.cont4_button{
+    width: 20%;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.cont4_button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
