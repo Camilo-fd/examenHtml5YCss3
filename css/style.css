@@ -69,7 +69,8 @@ main{
 }
 
 .cont1_sub1 img{
-    height: 100%;
+    width: 100%;
+    height: 60%;
     object-fit: contain;
 }
 
@@ -152,15 +153,25 @@ main{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+    padding: 2rem;
 }
 
 .cont2_sub1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    gap: 1rem;
+}
+
+.cont2_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont2_sub1 img{
+    width: 100%;
+    height: 60%;
     object-fit: contain;
 }
 
@@ -170,9 +181,13 @@ main{
     align-items: center;
     width: 40%;
     justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont2_sub2 img{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -182,25 +197,40 @@ main{
     width: 40%;
 }
 
-.cont2_sub3 h4, p{
-    font-size: 2rem;
+.cont2_sub3 h4{
+    font-size: 3rem;
+}
+
+.cont2_sub3 p{
+    font-size: 1.8rem;
 }
 
 .imagenes_cont2_sub3{
     display: flex;
+    width: 60%;
     flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
 }
 
-.imagenes_cont2_sub3 img{
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
+.imagenes_cont2_sub3 i:hover{
+    scale: 1.5;
 }
 
 .cont2_button{
     width: 20%;
     padding: .5rem;
     cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont2_button:hover{
+    background: var(--color-negro);
+}
+
+.cont2_button a:hover{
+    color: white;
 }
 
 .cont2_button a{
@@ -222,15 +252,25 @@ main{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+    padding: 2rem;
 }
 
 .cont3_sub1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    gap: 1rem;
+}
+
+.cont3_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont3_sub1 img{
+    width: 100%;
+    height: 60%;
     object-fit: contain;
 }
 
@@ -240,9 +280,13 @@ main{
     align-items: center;
     width: 40%;
     justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont3_sub2 img{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -252,25 +296,40 @@ main{
     width: 40%;
 }
 
-.cont3_sub3 h4, p{
-    font-size: 2rem;
+.cont3_sub3 h4{
+    font-size: 3rem;
+}
+
+.cont3_sub3 p{
+    font-size: 1.8rem;
 }
 
 .imagenes_cont3_sub3{
     display: flex;
+    width: 60%;
     flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
 }
 
-.imagenes_cont3_sub3 img{
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
+.imagenes_cont3_sub3 i:hover{
+    scale: 1.5;
 }
 
 .cont3_button{
     width: 20%;
     padding: .5rem;
     cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont3_button:hover{
+    background: var(--color-negro);
+}
+
+.cont3_button a:hover{
+    color: white;
 }
 
 .cont3_button a{
@@ -292,15 +351,25 @@ main{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+    padding: 2rem;
 }
 
 .cont4_sub1{
     display: flex;
     flex-direction: column;
     width: 20%;
+    gap: 1rem;
+}
+
+.cont1_sub1 div{
+    height: 25%;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont4_sub1 img{
+    width: 100%;
+    height: 60%;
     object-fit: contain;
 }
 
@@ -310,9 +379,13 @@ main{
     align-items: center;
     width: 40%;
     justify-content: center;
+    box-shadow: 11px 14px 9px -1px rgba(0,0,0,0.17);
+    border-radius: 1rem;
 }
 
 .cont4_sub2 img{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -322,25 +395,40 @@ main{
     width: 40%;
 }
 
-.cont4_sub3 h4, p{
+.cont4_sub3 h4{
     font-size: 2rem;
+}
+
+.cont4_sub3 p{
+    font-size: 1.8rem;
 }
 
 .imagenes_cont4_sub3{
     display: flex;
+    width: 60%;
     flex-direction: row;
+    font-size: 3rem;
+    justify-content: space-around;
 }
 
-.imagenes_cont4_sub3 img{
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
+.imagenes_cont4_sub3 i:hover{
+    scale: 1.5;
 }
 
 .cont4_button{
     width: 20%;
     padding: .5rem;
     cursor: pointer;
+    background: var(--color-verde);
+    border: none;
+}
+
+.cont4_button:hover{
+    background: var(--color-negro);
+}
+
+.cont4_button a:hover{
+    color: white;
 }
 
 .cont4_button a{
